@@ -24,18 +24,10 @@ export default function Hero() {
         <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+          {/* <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">Make Out Party</h1>
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200"> The 7th smallest indie band in the lesser Nashville Area.</p>
-            <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
-              <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
-              </div>
-              <div data-aos="fade-up" data-aos-delay="600">
-                <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
-              </div>
-            </div>
-          </div>
+          </div> */}
 
           <ModalVideo
             // thumb={VideoThumb}
@@ -43,13 +35,11 @@ export default function Hero() {
             thumbWidth={940}
             thumbHeight={720}
             thumbAlt="Modal video thumbnail"
-            // video="/videos/video.mp4"
             // video="../public/videos/SeizureDemo.mov"
-            video="/videos/SeizureDemo.mov"
-            // videoWidth={1920}
-            // videoHeight={1080} 
-            videoWidth={940}
-            videoHeight={720}
+            video="/videos/SeizureDemoSlowed.mov"
+            // video="/videos/MOV_7502.mov"
+            videoWidth={1920}
+            videoHeight={1080} 
             />
 
         </div>

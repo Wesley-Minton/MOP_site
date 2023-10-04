@@ -1,3 +1,5 @@
+// use client
+
 export const metadata = {
   title: 'Home - Open PRO',
   description: 'Page description',
@@ -9,6 +11,7 @@ import Newsletter from '@/components/newsletter'
 import Zigzag from '@/components/zigzag'
 import Testimonials from '@/components/testimonials'
 import ImageWithOverlay from '@/components/ImageWithOverlay'
+import VinylGraphic from '@/components/VinylGraphic'
 
 const LandingImageUrl = '../../public/images/SoundBoardCpy.jpg'; // Adjust the path as needed
 
@@ -18,9 +21,11 @@ export default function Home() {
     <>
       <ImageWithOverlay
         imageUrl={LandingImageUrl}
-        overlayText="Make Out Party"
+        // overlayText="BANDNAME HERE" //MAKEOUT PARTY
+        overlayText="MAKEOUT PARTY" //MAKEOUT PARTY
       />
       <Hero />
+      <VinylGraphic/>
       <Features />
       <Zigzag />
       <Testimonials />

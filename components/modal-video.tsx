@@ -42,7 +42,7 @@ export default function ModalVideo({
                   <stop stopColor="#EBF1F5" offset="100%" />
                 </linearGradient>
               </defs>
-              <circle fill="url(#a)" cx="44" cy="44" r="44" />
+              {/* <circle fill="url(#a)" cx="44" cy="44" r="44" /> */}
               <path className="fill-current text-purple-600" d="M52 44a.999.999 0 00-.427-.82l-10-7A1 1 0 0040 37V51a.999.999 0 001.573.82l10-7A.995.995 0 0052 44V44c0 .001 0 .001 0 0z" />
             </svg>
           </button>

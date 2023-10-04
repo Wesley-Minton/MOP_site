@@ -21,8 +21,7 @@ export default function Home() {
     <>
       <ImageWithOverlay
         imageUrl={LandingImageUrl}
-        // overlayText="BANDNAME HERE" //MAKEOUT PARTY
-        overlayText="MAKEOUT PARTY" //MAKEOUT PARTY
+        overlayText="MAKEOUT PARTY"
       />
       <Hero />
       <VinylGraphic/>

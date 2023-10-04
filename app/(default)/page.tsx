@@ -26,10 +26,10 @@ export default function Home() {
       />
       <Hero />
       <VinylGraphic/>
-      <Features />
+      {/* <Features />
       <Zigzag />
       <Testimonials />
-      <Newsletter />
+      <Newsletter /> */}
     </>
   )
 }

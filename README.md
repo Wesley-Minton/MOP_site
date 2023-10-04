@@ -1,3 +1,6 @@
+## Description for the app
+
+SICK BAND HOLY NOISE PROJECT
 
 ## Usage
 
@@ -52,6 +55,3 @@ For more information about what support covers, please see our (FAQs)[https://cr
 - Copyright 2023 [Cruip](https://cruip.com/).
 - Use it for personal and commercial projects, but please don’t republish, redistribute, or resell the template.
 
-## About Us
-
-We're an Italian developer/designer duo creating high-quality design/code resources for developers, makers, and startups.

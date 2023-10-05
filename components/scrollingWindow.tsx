@@ -38,14 +38,15 @@ const ScrollingWindow: React.FC<ScrollingWindowProps> = ({ backgroundImage }) =>
 
   const containerStyle: React.CSSProperties = {
     width: '100vw',
-    height: '100vh',
+    height: '500px',
     position: 'relative',
     overflow: 'hidden',
+    marginBottom: 100
   };
 
   const backgroundImageStyle: React.CSSProperties = {
-    width: '100%',
-    height: '100%',
+    width: '100vw',
+    height: '100vh',
     backgroundImage: `url(${backgroundImage})`,
     backgroundSize: 'cover',
     backgroundPosition: `center ${backgroundPositionY}`, // Scroll the background image
@@ -54,10 +55,10 @@ const ScrollingWindow: React.FC<ScrollingWindowProps> = ({ backgroundImage }) =>
 
   const windowStyle: React.CSSProperties = {
     width: '100vw',
-    height: '500px',
+    height: '200%',
     boxShadow: '0 0 0 10000px rgba(0, 0, 0)',
     position: 'absolute',
-    top: '50%', // Adjust the vertical position
+    top: '100%', // Adjust the vertical position
     left: '50%', // Adjust the horizontal position
     transform: 'translate(-50%, -100%)', // Center the window
   };

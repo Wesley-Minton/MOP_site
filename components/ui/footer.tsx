@@ -43,7 +43,7 @@ export default function Footer() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <ul style={{ listStyleType: 'none', padding: 0, display: 'flex', justifyContent: 'space-evenly' }}>
           <li>
-            <a href="https://www.instagram.com/your-instagram-link" style={iconStyle}>
+            <a href="https://www.instagram.com/makeoutparty_makeoutparty/" style={iconStyle}>
               <FontAwesomeIcon icon={faInstagram} />
             </a>
           </li>

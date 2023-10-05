@@ -22,8 +22,7 @@ const ImageWithOverlay: React.FC<ImageWithOverlayProps> = ({ imageUrl, overlayTe
         alt={"nothing here"}
         layout="fill"
         objectFit="cover"
-        
-      />
+        />
       </div>
         <div
           //className="overlay-text"

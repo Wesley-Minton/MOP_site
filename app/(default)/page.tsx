@@ -13,6 +13,7 @@ import Testimonials from '@/components/testimonials'
 import ImageWithOverlay from '@/components/ImageWithOverlay'
 import VinylGraphic from '@/components/VinylGraphic'
 import SectionSeparator from '@/components/sectionSeparator'
+import ScrollingWindow from '@/components/scrollingWindow'
 
 const LandingImageUrl = '../../public/images/SoundBoardCpy.jpg'; // Adjust the path as needed
 
@@ -27,6 +28,8 @@ export default function Home() {
       <Hero />
       {/* <SectionSeparator/> */}
       <VinylGraphic/>
+      
+      <ScrollingWindow backgroundImage='/images/BackShots.jpeg'/>
       <SectionSeparator/>
       {/* <Features />
       <Zigzag />

@@ -12,6 +12,7 @@ import Zigzag from '@/components/zigzag'
 import Testimonials from '@/components/testimonials'
 import ImageWithOverlay from '@/components/ImageWithOverlay'
 import VinylGraphic from '@/components/VinylGraphic'
+import SectionSeparator from '@/components/sectionSeparator'
 
 const LandingImageUrl = '../../public/images/SoundBoardCpy.jpg'; // Adjust the path as needed
 
@@ -24,7 +25,9 @@ export default function Home() {
         overlayText="MAKEOUT PARTY"
       />
       <Hero />
+      {/* <SectionSeparator/> */}
       <VinylGraphic/>
+      <SectionSeparator/>
       {/* <Features />
       <Zigzag />
       <Testimonials />

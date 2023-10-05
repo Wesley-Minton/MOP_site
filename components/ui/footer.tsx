@@ -39,7 +39,7 @@ export default function Footer() {
       }}>
         <h1> MAKEOUT PARTY </h1>
       </div>
-      <div className="py-12 md:py-16">
+      <div className="py-12 md:py-16" style={{paddingTop: 0}}>
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <ul style={{ listStyleType: 'none', padding: 0, display: 'flex', justifyContent: 'space-evenly' }}>
           <li>
@@ -75,7 +75,7 @@ export default function Footer() {
           <div className="md:flex md:items-center md:justify-between">
 
           {/* Copyrights note */}
-          <div className="text-gray-400 text-sm mr-4" style={{marginTop: 20, justifyContent: 'center', width: '100%', display: 'flex'}}>&copy; Wes Minton Inc. - All rights reserved.</div>
+          <div className="text-gray-400 text-sm mr-4" style={{marginTop: 40, justifyContent: 'center', width: '100%', display: 'flex'}}>&copy; Boner Jams Inc. - All rights reserved.</div>
 
           </div>
 

@@ -1,5 +1,8 @@
 "use client"
 
+// DITCH ALL OF THIS AND USE PARALLAX:
+// https://www.youtube.com/watch?v=UgIwjLg4ONk
+//
 import React, { useEffect, useState } from 'react';
 
 interface ScrollingWindowProps {

@@ -14,6 +14,7 @@ import ImageWithOverlay from '@/components/ImageWithOverlay'
 import VinylGraphic from '@/components/VinylGraphic'
 import SectionSeparator from '@/components/sectionSeparator'
 import ScrollingWindow from '@/components/scrollingWindow'
+import ParallaxScroll from '@/components/parallaxScroll'
 
 const LandingImageUrl = '../../public/images/SoundBoardCpy.jpg'; // Adjust the path as needed
 
@@ -29,7 +30,8 @@ export default function Home() {
       {/* <SectionSeparator/> */}
       <VinylGraphic/>
       
-      <ScrollingWindow backgroundImage='/images/BackShots.jpeg'/>
+      {/* <ScrollingWindow backgroundImage='/images/BackShots.jpeg'/> */}
+      {/* <ParallaxScroll/> */}
       <SectionSeparator/>
       {/* <Features />
       <Zigzag />

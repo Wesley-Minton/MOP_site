@@ -63,7 +63,7 @@ export default function Footer() {
             </a>
           </li>
           <li>
-            <a href="https://your-shop-link.com" style={iconStyle}>
+            <a href="https://thatsthefinger.com/" style={iconStyle}>
               <FontAwesomeIcon icon={faShoppingCart} />
             </a>
           </li>

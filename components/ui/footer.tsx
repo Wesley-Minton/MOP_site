@@ -6,6 +6,7 @@ import {
   faTiktok,
   faYoutube,
   faSpotify,
+  faApple
 } from '@fortawesome/free-brands-svg-icons';
 
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
@@ -48,17 +49,17 @@ export default function Footer() {
             </a>
           </li>
           <li>
-            <a href="https://www.tiktok.com/your-tiktok-link" style={iconStyle}>
-              <FontAwesomeIcon icon={faTiktok} />
+            <a href="https://music.apple.com/us/artist/makeout-party/1711329073" style={iconStyle}>
+              <FontAwesomeIcon icon={faApple} />
             </a>
           </li>
           <li>
-            <a href="https://www.youtube.com/your-youtube-link" style={iconStyle}>
+            <a href="https://www.youtube.com/channel/UCHG-wYr9sqh30tIHhrd7WXg" style={iconStyle}>
               <FontAwesomeIcon icon={faYoutube} />
             </a>
           </li>
           <li>
-            <a href="https://open.spotify.com/your-spotify-link" style={iconStyle}>
+            <a href="https://open.spotify.com/artist/4SQ8PFyLtHfQoWGHmfSVC7" style={iconStyle}>
               <FontAwesomeIcon icon={faSpotify} />
             </a>
           </li>
@@ -75,7 +76,7 @@ export default function Footer() {
           <div className="md:flex md:items-center md:justify-between">
 
           {/* Copyrights note */}
-          <div className="text-gray-400 text-sm mr-4" style={{marginTop: 40, justifyContent: 'center', width: '100%', display: 'flex'}}>&copy; Boner Jams Inc. - All rights reserved.</div>
+          <div className="text-gray-400 text-sm mr-4" style={{marginTop: 40, justifyContent: 'center', width: '100%', display: 'flex'}}>&copy; Shed Records - All rights reserved.</div>
 
           </div>
 

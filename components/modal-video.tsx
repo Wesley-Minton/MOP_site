@@ -83,7 +83,7 @@ export default function ModalVideo({
                   // width={videoWidth} 
                   // height={videoHeight} 
                   loop 
-                  // controls
+                  controls
                   style={{
                     objectFit: 'contain',
                     maxWidth: '100%',

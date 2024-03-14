@@ -36,7 +36,8 @@ export default function Hero() {
             thumbHeight={720}
             thumbAlt="Modal video thumbnail"
             // video="../public/videos/SeizureDemo.mov"
-            video="/videos/SeizureDemoSlowed.mov"
+            // video="/videos/SeizureDemoSlowed.mov"
+            video="/videos/Nostalgia1980Video.mov"
             // video="/videos/MOV_7502.mov"
             videoWidth={1920}
             videoHeight={1080} 

@@ -1,8 +1,8 @@
 // use client
 
 export const metadata = {
-  title: 'Home - Open PRO',
-  description: 'Page description',
+  title: 'Home - MakeoutParty Landing Page',
+  description: 'Holy Shit. "Were so back department? I would like to make a claim"',
 }
 
 import Hero from '@/components/hero'
@@ -28,6 +28,7 @@ export default function Home() {
       />
       <Hero />
       {/* <SectionSeparator/> */}
+      <SectionSeparator/>
       <VinylGraphic/>
       
       {/* <ScrollingWindow backgroundImage='/images/BackShots.jpeg'/> */}

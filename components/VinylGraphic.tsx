@@ -1,4 +1,5 @@
-import React from 'react';
+"use client"
+import React, { useState } from 'react';
 import Image from 'next/image'
 
 import vinylImage from '../public/images/VinylSquare.jpeg';
@@ -10,11 +11,37 @@ import RecordImage from '../public/images/TransparentBackroundRecord.png';
 const fadeInDelay = 400
 const width = 500
 const height = 500
+const words = ['Esoteric', 'Alien', 'Disco', 'Fusion', 'Goth', 'Surf', 'Rock','Noise Project']
+const otherSentence = "no music theory, no socks, no dinner"
 
 const VinylGraphic: React.FC = () => {
+  
   const vinylImageDelay = 400;
   const recordImageDelay = 3000; // Adjust this delay for faster movement
   const recordImageEndPostion = '30%'; // Set the initial position to the center
+
+  const [sentence, setSentence] = useState(words.join(' '))
+
+  const randomizeSentence = () => {
+    const wordsDup = words
+
+    for (let i = wordsDup.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [wordsDup[i], wordsDup[j]] = [wordsDup[j], wordsDup[i]];
+    }
+
+    return wordsDup.join(' ');
+  };
+
+  const handleButtonClick = () => {
+    const randNum = Math.floor(Math.random()*10) + 1
+    if (randNum == 1) {
+      setSentence(otherSentence)
+    } else {
+      const randomizedSentence = randomizeSentence();
+      setSentence(randomizedSentence);
+    }
+  }
 
   return (
     <div
@@ -72,7 +99,11 @@ const VinylGraphic: React.FC = () => {
         data-aos-duration="500"
         data-aos-delay={fadeInDelay}
       >
-        <h2>Coming to a super exclusive house show near you</h2>
+        <div style={{display: 'flex', flexDirection: 'column'}}>
+          <h2 style={{paddingBottom: 50}}> {sentence} </h2>
+          <button style={{outlineStyle: 'solid', color: 'white', borderRadius: 5}} onClick={handleButtonClick}> More about us </button>
+        </div>
+        
       </div>
     </div>
   );
